@@ -1,12 +1,8 @@
 body {
-  background: linear-gradient(
-    109.6deg,
-    rgb(72, 200, 160) 11.2%,
-    rgb(32, 40, 48) 91.3%
-  );
-  text-align: center;
-  color: antiquewhite;
-}
-a {
-  color: azure;
-}
+  background: radial-gradient(
+    859px at 7.5% 18%,
+    rgb(234, 6, 185) 4.2%,
+    rgb(251, 179, 8) 92.7%
+  );}
+
+ 
