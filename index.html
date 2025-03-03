@@ -14,25 +14,27 @@
     <header>
       <h1>AI English Poem Generator</h1>
     </header>
-    <main>
-      <form id="poem-generator-form">
-        <input
-          type="text"
-          placeholder="Enter topic of the English poem"
-          autofocus
-          required
-          autocomplete="off"
-          class="instructions"
-          id="user-instructions"
-        />
-        <input type="submit" class="btn"/>
-      </form>
-        <div class="poem" id="poem">
-          
-          
+   
+
+      <main>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of an English poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="btn" />
+          </form>
+          <div class="hint">i.e: Flower, Mitch, Kind or Cheese</div>
         </div>
-      
-    </main>
+        <div class="poem hidden" id="poem"></div>
+      </main>
+    
   
     <footer>
       This AI project was coded by
