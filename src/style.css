@@ -1,3 +1,12 @@
-h1 {
-  color: red;
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(72, 200, 160) 11.2%,
+    rgb(32, 40, 48) 91.3%
+  );
+  text-align: center;
+  color: antiquewhite;
+}
+a {
+  color: azure;
 }
