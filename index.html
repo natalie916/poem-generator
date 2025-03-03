@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
+  <div class="container">
   <body>
     <header>
       <h1>AI English Poem Generator</h1>
@@ -18,14 +19,17 @@
           autofocus
           required
           autocomplete="off"
+          class="instructions"
         />
-        <input type="submit" />
-        <div>
+        <input type="submit" class="btn"/>
+      </form>
+        <div class="poem">
           poem
           <br />
         </div>
-      </form>
+      
     </main>
+  
     <footer>
       This AI project was coded by
       <a href="https://github.com/natalie916" target="_blank">Natalie M💎</a>
@@ -38,6 +42,7 @@
         hosted on Netlify</a
       >
     </footer>
+  </div>
     <script src="src/index.js"></script>
   </body>
 </html>

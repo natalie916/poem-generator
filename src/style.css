@@ -1,8 +1,56 @@
 body {
-  background: radial-gradient(
-    859px at 7.5% 18%,
-    rgb(234, 6, 185) 4.2%,
-    rgb(251, 179, 8) 92.7%
-  );}
+  background-color: pink;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  margin: 145px auto;
+  max-width: 500px;
+}
+header {
+  margin-bottom: 30px;
+}
 
- 
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.5em;
+  color: #272045;
+}
+
+form {
+  padding: 30px;
+  background-color: azure;
+  border-radius: 16px;
+  display: flex;
+  margin-bottom: 25px;
+}
+.instructions {
+  padding: 15px;
+  border: 1px solid rgb(126, 109, 109);
+  width: 75%;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.btn {
+  margin-left: 10px;
+  background: rgb(250, 200, 237);
+  border: none;
+  border-radius: 10px;
+  padding: 0 5px;
+  width: 25%;
+  font-size: 16px;
+  border: 1px solid rgb(126, 109, 109);
+}
+.poem {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 2px solid rgb(155, 55, 128);
+  box-shadow: 0px 20px 60px rgb(238, 133, 133);
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
