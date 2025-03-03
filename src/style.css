@@ -1,5 +1,9 @@
 body {
-  background: radial-gradient(circle at 10% 20%, rgb(220, 217, 249) 0%, rgb(172, 224, 217) 89.8%);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(220, 217, 249) 0%,
+    rgb(172, 224, 217) 89.8%
+  );
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
@@ -34,23 +38,25 @@ form {
 }
 .btn {
   margin-left: 10px;
-  background: rgb(229, 151, 209);
+  background: rgb(204, 107, 212);
   border: none;
   border-radius: 10px;
   padding: 0 5px;
   width: 25%;
   font-size: 16px;
   border: 1px solid rgb(126, 109, 109);
+  color: aliceblue;
 }
 .poem {
   background: rgb(16, 235, 243);
   font-size: 16px;
   padding: 20px;
   line-height: 2;
-  border-left: 2px solid rgb(229, 151, 209);
-  box-shadow: 0px 2px 1px  rgb(185, 244, 252)}
+  border-left: 2px solid rgb(212, 120, 189);
+  box-shadow: 0px 2px 1px rgb(185, 244, 252);
+}
 
-  .hidden {
+.hidden {
   display: none;
 }
 footer {
@@ -63,7 +69,7 @@ footer {
 }
 
 .form-container {
-  background-color:  rgb(12, 204, 230);
+  background-color: rgb(12, 204, 230);
   margin-bottom: 30px;
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
